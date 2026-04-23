@@ -1,0 +1,12 @@
+{
+  "name": "fixtechv2-root",
+  "version": "1.0.0",
+  "scripts": {
+    "frontend": "npm start --prefix frontend", 
+    "backend": "npm start --prefix backend",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
